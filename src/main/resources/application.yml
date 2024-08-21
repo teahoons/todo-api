@@ -1,0 +1,17 @@
+server:
+  port: 8081
+
+
+spring:
+  application:
+    name: "todo-api"
+  datasource:
+    url: jdbc:mysql://localhost:3307/test?allowPublicKeyRetrieval=true
+    username: root
+    password: root
+
+  jpa:
+    show-sql: false
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQLDialect
