@@ -1,7 +1,7 @@
 package com.example.todo_api.controller;
 
-import com.example.todo_api.dto.AuthRequest;
 import com.example.todo_api.config.JwtUtil;
+import com.example.todo_api.dto.AuthRequest;
 import com.example.todo_api.dto.RegisterRequest;
 import com.example.todo_api.entity.TbUser;
 import com.example.todo_api.service.UserService;

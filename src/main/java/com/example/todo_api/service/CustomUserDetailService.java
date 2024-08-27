@@ -13,7 +13,6 @@ import org.springframework.stereotype.Service;
 
 import java.util.Collections;
 
-@Primary
 @Service
 public class CustomUserDetailService implements UserDetailsService {
 
